@@ -1,0 +1,1 @@
+C:\Users\pasim\OneDrive\Desktop\Kotlin-koodeja\RiistakameraR7AFOpencv\sdk\libcxx_helper\CMakeLists.txt
