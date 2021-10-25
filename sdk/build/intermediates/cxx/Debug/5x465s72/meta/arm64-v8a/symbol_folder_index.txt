@@ -1,0 +1,1 @@
+C:\Users\pasim\OneDrive\Desktop\Kotlin-koodeja\RiistakameraR7AFOpencvkopio\sdk\build\intermediates\cxx\Debug\5x465s72\obj\arm64-v8a

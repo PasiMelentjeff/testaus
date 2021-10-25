@@ -3,7 +3,8 @@
     package="com.example.riistakamerar7afopencv">
 <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
 
 
 
@@ -16,6 +17,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RiistakameraR7AFOpencv">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com/example/riistakamerar7afopencv.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
